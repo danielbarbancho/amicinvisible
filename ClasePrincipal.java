@@ -23,13 +23,17 @@ public class ClasePrincipal {
 
 		for(int fila = 0; fila < arrayInvisible.length;fila++) {
 			if(fila == 20) {
-				System.out.print(arrayInvisible[0]);
+				break;
 			} else {
 			System.out.println(arrayInvisible[fila]);
 			System.out.println("|");
 			System.out.println("V");
 			}
 		}
+		System.out.println(arrayInvisible[20]);
+		System.out.println("|");
+		System.out.println("V");
+		System.out.print(arrayInvisible[0]);
 	}
 		
 
